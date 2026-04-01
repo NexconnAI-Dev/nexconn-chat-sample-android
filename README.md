@@ -35,14 +35,7 @@ Edit `commonmodule/.../SampleConfig.kt`:
 
 ## Build & Run
 
-### Standalone
-
-1. Open `android-nexconn/samples/` in Android Studio.
-2. Select any sample module from the run configuration dropdown.
-3. Click **Run**.
-
-### From Root Project
-
-1. Open `android-sealdev-gradle-8.x` in Android Studio.
-2. Select any sample module (e.g., `directchannel-send-text`) from the run configuration.
-3. Click **Run**.
+1. Clone or download this repository.
+2. Open the project root directory in Android Studio.
+3. Select any sample module (e.g., `directchannel-send-text`) from the run configuration dropdown.
+4. Click **Run**.
