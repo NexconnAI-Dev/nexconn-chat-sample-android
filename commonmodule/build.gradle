@@ -33,5 +33,5 @@ dependencies {
     api "androidx.appcompat:appcompat:$androidxAppcompatVersion"
     api "com.google.android.material:material:$googleMaterialVersion"
 
-    api 'ai.nexconn.chat:chat:26.1.0'
+    api 'ai.nexconn.chat:chat:26.2.2'
 }

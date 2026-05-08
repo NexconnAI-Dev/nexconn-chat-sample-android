@@ -53,11 +53,9 @@ class MainActivity : LogOutputActivity() {
         )
     }
 
-    private fun channelTypeText(type: ChannelType): String {
-        return when (type) {
-            ChannelType.DIRECT -> "direct"
-            ChannelType.GROUP -> "group"
-            else -> type.name.lowercase()
-        }
+    private fun channelTypeText(type: ChannelType): String = when (type) {
+        ChannelType.DIRECT -> "direct"
+        ChannelType.GROUP -> "group"
+        else -> type.name.lowercase()
     }
 }
